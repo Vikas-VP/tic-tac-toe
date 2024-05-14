@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  margin: auto;
+  max-width: calc(3 * 50px);
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  height: 100%;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
